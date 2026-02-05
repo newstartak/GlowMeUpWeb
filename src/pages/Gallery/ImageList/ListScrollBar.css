@@ -1,0 +1,21 @@
+#ImageList::-webkit-scrollbar
+{
+  width: 0px;
+  background: transparent;
+}
+#ImageList::-webkit-scrollbar-thumb
+{
+  background: rgb(165, 190, 220);
+  border-radius: 5px;
+}
+#ImageList::-webkit-scrollbar-track
+{
+  background: linear-gradient(180deg, rgba(105, 125, 195, 0.65), rgba(5, 25, 95, 0.85));
+  border-radius: 5px;
+}
+#ImageList::-webkit-scrollbar-button
+{
+  display: none;
+  width: 0;
+  height: 0;
+}

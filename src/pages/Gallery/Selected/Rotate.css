@@ -1,0 +1,12 @@
+#Selected img
+{
+  transform:
+    perspective(var(--distance))
+    rotate3d(var(--y), var(--x), 0, var(--angle));
+
+  transition:
+    transform var(--sec) ease,
+    opacity 1s ease;
+
+  will-change: transform;
+}

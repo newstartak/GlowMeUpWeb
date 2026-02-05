@@ -1,0 +1,80 @@
+body
+{
+  background-color: rgb(5, 5, 15);
+
+  font-family: "Pretendard", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+}
+
+#Gallery
+{
+  width: min(90%, 1800px);
+  height: 100dvh;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#Header
+{
+  width: 100%;
+  height: 25%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 2.5dvh;
+
+  gap:20%;
+}
+
+#Header #Logo
+{
+  width: auto;
+  height: 30%;
+}
+
+#Header #Search
+{
+  width: auto;
+  height: 10%;
+}
+
+#Header #QR
+{
+  width: 130px;
+  height: 100%;
+  max-height: 130px;
+
+  border-radius: 2%;
+}
+
+#Body
+{
+  width: 100%;
+  height: 70%;
+
+  margin: 2.5dvh 0;
+}
+
+
+/* 세로 모드 */
+@media (orientation: portrait)
+{
+  #Body
+  {
+    flex-direction: column;
+  }
+}
+
+/* 가로 모드 */
+@media (orientation: landscape)
+{
+  #Body
+  {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,57 @@
+#ImageList
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(400px, 25%), 1fr));
+  
+  justify-content: center;
+
+  align-content: start;
+
+  row-gap: 1%;
+  column-gap: 2%;
+
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#ImageList img
+{
+  width: 100%;
+
+  cursor: pointer;
+}
+
+#ImageList .textBG
+{
+  position: absolute;
+
+  top: 85%;
+  right: 50%;
+
+  width: 101%;
+  height: 15%;
+
+  transform: translate(50%, 0%);
+
+  background-color: rgba(5, 5, 15, 0.7);
+}
+
+@media (orientation:portrait)
+{
+  @media (max-width: 500px)
+  {
+    #ImageList
+    {
+      grid-template-columns: repeat(2, minmax(min(200px, 30%), 1fr));
+    }
+  }
+
+  @media (min-width: 500px)
+  {
+    #ImageList
+    {
+      grid-template-columns: repeat(3, minmax(min(200px, 30%), 1fr));
+    }
+  }
+}
