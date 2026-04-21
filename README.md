@@ -29,6 +29,46 @@ PC에서는 QR을 통해 모바일 결과 페이지로 자연스럽게 유도하
 
 ---
 
+
+## 주요 화면
+
+<table>
+  <tr>
+    <th>PC 메인 화면</th>
+    <th>모바일 메인 화면</th>
+  </tr>
+  <tr>
+    <td align="center">
+      PC에서는 QR을 통해 모바일 결과 페이지로 진입할 수 있도록 안내하는 화면
+      <br/><br/>
+      <img width="480" alt="PC 메인 화면"  src="https://github.com/user-attachments/assets/3be961c9-038a-4e3c-b36f-d6ab4a3a9c8b" />
+    </td>
+    <td align="center">
+      모바일에서는 닉네임 검색과 결과 카드 탐색이 가능한 메인 화면
+      <br/><br/>
+      <img width="160" alt="모바일 메인 화면" src="https://github.com/user-attachments/assets/3da148ce-e0ce-46aa-9278-93b9ae755c21" />
+    </td>
+  </tr>
+<tr>
+    <th>PC 이미지 확인 및 강조 화면</th>
+    <th>모바일 이미지 다운로드 화면</th>
+  </tr>
+  <tr>
+    <td align="center">
+      새로 추가되거나 선택한 이미지가 크게 강조되며 확인 가능한 PC 화면
+      <br/><br/>
+      <img width="480" alt="PC 이미지 다운로드 화면" src="https://github.com/user-attachments/assets/cff7a508-c47d-4905-92bd-8ef0a25fa0c8" />
+    </td>
+    <td align="center">
+      선택한 결과 이미지를 크게 확인하고 다운로드할 수 있는 모바일 화면
+      <br/><br/>
+      <img width="160" alt="모바일 이미지 다운로드 화면" src="https://github.com/user-attachments/assets/aea7395a-3f69-494a-a529-150e193f6e77" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 담당 역할
 
 ### React 기반 웹 결과 페이지 개발
@@ -97,54 +137,3 @@ PC에서는 QR을 통해 모바일 결과 페이지로 자연스럽게 유도하
 ### 전시형 결과 조회 경험 구성
 - 단순 이미지 나열이 아니라 카드 탐색, 상세 확인, 다운로드까지 이어지는 흐름으로 결과 페이지를 구성하였습니다.
 - 오프라인 키오스크 체험 이후 온라인에서 결과를 자연스럽게 이어서 확인할 수 있도록 사용자 경험을 연결하였습니다.
-
----
-
-
-## 주요 화면
-
-<table>
-  <tr>
-    <th>PC 메인 화면</th>
-    <th>모바일 메인 화면</th>
-  </tr>
-  <tr>
-    <td align="center">
-      PC에서는 QR을 통해 모바일 결과 페이지로 진입할 수 있도록 안내하는 화면
-      <br/><br/>
-      <img width="480" alt="PC 메인 화면"  src="https://github.com/user-attachments/assets/3be961c9-038a-4e3c-b36f-d6ab4a3a9c8b" />
-    </td>
-    <td align="center">
-      모바일에서는 닉네임 검색과 결과 카드 탐색이 가능한 메인 화면
-      <br/><br/>
-      <img width="160" alt="모바일 메인 화면" src="https://github.com/user-attachments/assets/3da148ce-e0ce-46aa-9278-93b9ae755c21" />
-    </td>
-  </tr>
-<tr>
-    <th>PC 이미지 확인 및 강조 화면</th>
-    <th>모바일 이미지 다운로드 화면</th>
-  </tr>
-  <tr>
-    <td align="center">
-      새로 추가되거나 선택한 이미지가 크게 강조되며 확인 가능한 PC 화면
-      <br/><br/>
-      <img width="480" alt="PC 이미지 다운로드 화면" src="https://github.com/user-attachments/assets/cff7a508-c47d-4905-92bd-8ef0a25fa0c8" />
-    </td>
-    <td align="center">
-      선택한 결과 이미지를 크게 확인하고 다운로드할 수 있는 모바일 화면
-      <br/><br/>
-      <img width="160" alt="모바일 이미지 다운로드 화면" src="https://github.com/user-attachments/assets/aea7395a-3f69-494a-a529-150e193f6e77" />
-    </td>
-  </tr>
-</table>
-
----
-
-## 화면 구성
-
-| 화면 | 설명 |
-|---|---|
-| PC 메인 화면 | QR을 통한 모바일 진입 유도 |
-| 모바일 메인 화면 | 닉네임 검색 및 결과 카드 탐색 |
-| PC 이미지 다운로드 화면 | 이미지 확대 보기 및 다운로드 |
-| 모바일 이미지 다운로드 화면 | 모바일 환경에서의 이미지 확대 보기 및 다운로드 |
